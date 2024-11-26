@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  llmcustomersupportapp:
+    container_name: llmcustomersupport
+    build: ./llmcustomersupportapp
+    restart: always
+    ports:
+      - 8000:5000
+volumes:
+  data:

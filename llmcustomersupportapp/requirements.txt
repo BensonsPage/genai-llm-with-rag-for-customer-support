@@ -1,0 +1,8 @@
+flask
+google.generativeai
+python-dotenv
+wtforms
+IPython
+flask_wtf
+wtforms.validators
+chromadb
