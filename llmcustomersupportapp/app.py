@@ -79,7 +79,7 @@ def index():
     return render_template(
         "index.html",
         form=form,
-        response=response.text,
+        response=response,
         app_copyright=app_copyright
     )
 
